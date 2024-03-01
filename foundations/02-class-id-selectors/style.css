@@ -1,0 +1,9 @@
+.odd-number {
+    background-color: hsl(0, 66%, 68%);
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+#number-2 {
+    color: hsl(239, 70%, 46%);
+    font-size: 36px;
+}
