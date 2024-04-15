@@ -12,7 +12,6 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 img {
@@ -24,6 +23,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px 16px;
 }
 
 input {
@@ -56,17 +56,15 @@ input {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-grow: 1;
  }
 
- button {
-  padding: 10px;
- }
 
  .footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 16px;
-  background-color: #eeeeee;
+  background: #eeeeee;
   height: 25px;
  }
